@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Evita que se indexen rutas temporales si las tuvieras
+Disallow: /config/
