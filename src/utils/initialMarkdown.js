@@ -2,129 +2,66 @@ export const INITIAL_MARKDOWN = {
   id: 0,
   title: "bienvenida_md",
   content: `
-# Introducción a Markdown
+# 🚀 Bienvenido a tu Editor de Markdown Profesional
 
-Markdown es un **lenguaje de marcado ligero** que permite dar formato a texto de manera sencilla y legible. Esta app te permite escribir en formato markdown y exportar fácilmente a otros formatos (PDF, HTML o TXT). Todos tus documentos se guardan localmente.
+¡Hola! Este es un documento de prueba diseñado para mostrar el potencial y la versatilidad de **este editor**. Markdown te permite escribir de forma fluida, estructurada y elegante, viendo los resultados en tiempo real.
 
----
+## 📋 Características Principales
 
-## ¿Qué es Markdown?
-
-Markdown permite escribir texto plano y convertirlo fácilmente en **HTML** u otros formatos. Su principal ventaja es la **simplicidad** y la **legibilidad**.
-
-### Características principales
-
-- Fácil de aprender
-- Legible sin procesar
-- Compatible con muchas plataformas
-- Ideal para documentación
-
----
-
-## Encabezados (H1 a H6)
-
-Los encabezados se crean usando el símbolo \`#\`:
-
-\`\`\`text
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-\`\`\`
----
-
-## Énfasis en el texto
-
-Puedes resaltar texto usando:
-
-* Negrita: **texto**
-
-* Cursiva: *texto*
-
-* Negrita y cursiva: ***texto***
-
-Ejemplo:
-
-> Markdown permite escribir texto en negrita, cursiva o ambos fácilmente.
+* **Formatos Rápidos:** Aplica negritas (`**texto**`), cursivas (`*texto*`) y tachados en segundos.
+* **Organización:** Estructura tus ideas con listas jerárquicas y listas de tareas.
+* **Sin Distracciones:** Diseñado para que te enfoques únicamente en lo que importa: tus palabras.
+  
+  ### 🛠️ Estado del Proyecto (Checklist)
+- [x] Crear una interfaz limpia y minimalista.
+- [x] Configurar el motor de renderizado Markdown.
+- [x] Probar el soporte para tablas y bloques de código.
+- [ ] Implementar el guardado automático en la nube.
 
 ---
 
-## Listas
+## 📊 Organización de Datos
 
-### Listas no ordenadas
+Las tablas son una excelente manera de estructurar información técnica o comparar elementos de forma ordenada:
 
-- Elemento uno
 
-- Elemento dos
 
-	- Subelemento
 
-	- Otro subelemento
-
-### Listas ordenadas
-
-1. Primer paso
-
-2. Segundo paso
-
-3. Tercer paso
+| Característica        | Soporte        | Estado     |
+| --------------------- | -------------- | ---------- |
+| **Títulos y Textos**  | ✅ Sí           | Listo      |
+| **Tablas Complejas**  | ✅ Sí           | Listo      |
+| **Bloques de Código** | ✅ Sí           | Optimizado |
+| **Ecuaciones ($)**    | ⏳ Próximamente |            |
 
 ---
 
-## Enlaces
+## 💡 Bloques de Código y Citas
 
-Los enlaces se escriben así:
+### Ejemplo de Código (Python)
 
-[Leer a Marx](https://www.marxists.org)
+Puedes insertar bloques de código multifuncionales especificando el lenguaje de programación para activar el resaltado de sintaxis:
+
+```python
+# Función para calcular la suma de dos números
+def suma(a, b):
+    return a + b
+
+print(suma(2, 5))
+```
+
+### Notas e Inspiración
+
+> "La simplicidad es la máxima sofisticación."
+> — *Leonardo da Vinci*
 
 
-Ejemplo:
-[Visitar Markdown Guide](https://www.markdownguide.org/)
 
----
+## 🔗 Enlaces y Recursos Útiles
 
-## Imágenes
+- 📖 [Aprender más sobre la Sintaxis Markdown](https://www.markdownguide.org)
 
-La sintaxis es similar a los enlaces, pero con !:
-
-![Foto de un genio](/images/karl-marx.jpg)
-
----
-
-## Bloques de código
-
-### Código en línea
-
-Usa comillas invertidas:  \`código\`
-
-### Bloques de código
-\`\`\`python
-def saludo(nombre):
-    return f"Hola, {nombre}!"
-\`\`\`
-
----
-
-## Citas
-
-Las citas se escriben usando >:
-
-> Markdown es una forma simple y efectiva de dar formato al texto.
-
----
-
-## Tablas
-
-Las tablas se crean usando | y -:
-
-| Sintaxis | Descripción |
-|----------|-------------|
-|#	   | Encabezados |
-|*	   |Cursiva      |
-|**	   |Negrita      |
-|>	   |Citas        |
+- 💡 [Consejos para redactar documentación técnica](https://www.writethedocs.org)
 
 `,
   creationDate: null,
